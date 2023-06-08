@@ -1,0 +1,157 @@
+/*
+Colors:
+
+Text: 1A1A1A
+Green: #00B172
+White: #FFF
+
+*/
+
+html {
+    box-sizing: border-box;
+    font-size: 20px;
+    color: 1A1A1A;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+  }
+ 
+  *, *:before, *:after {
+    box-sizing: inherit;
+  }
+ 
+  body, h1, h2, h3, h4, h5, h6, p, ol, ul {
+    margin: 0;
+    padding: 0;
+    font-weight: lighter;
+  }
+
+  .service-box h3 {
+    color: #00B172;
+  }
+
+  h2{
+    text-align: center;
+    box-sizing: border-box;
+    padding: 10px;
+
+  }
+
+  .nav-bar {
+    background-color: white;
+    flex-direction: row;
+    align-items: center;
+    box-sizing: border-box;
+  }
+
+  .nav-bar img {
+    width: 125px;
+    position: left;
+  }
+
+  nav ul {
+    float: right;
+    list-style: none;
+    display:flex;
+    align-items: center;
+    flex-direction: row;
+   
+  }
+
+  .intro {
+    background-image: url(https://github.com/ironhack-labs/lab-css-spotify-clone/blob/master/images/landing.jpg?raw=true);
+    background-size: cover;
+    position: 0.0;
+    size: cover;
+    width: 200;
+    height: 200px;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    box-sizing: border-box;
+  }
+  .center {
+    color: white;
+    text-align: center;
+    font-size: 40px;
+  }
+
+  .intro aside {
+      color: white;
+      text-align: center;
+      font-size: 20px;
+  }
+
+  .container {
+    display: flex;
+    flex-wrap:nowrap;
+    align-items: center;
+    flex-grow: 1;
+    flex-flow: row;
+    justify-content: space-around;
+    box-sizing: border-box;
+    align-items: baseline;
+    align-content: space-between;
+    padding: 20px;
+  }
+
+  .service-box {
+    font-size: 20px;
+    text-align: center;
+    width: 200px;
+    height: 200px;
+    border: Apx solid Oblack;
+    border-radius: 30px;
+    padding: 10px;
+    box-sizing: border-box;
+    margin: 10px 5px 15px 10px;
+    font-size: 16px;
+    align-items: center;
+    align-content: flex-start;
+
+  }
+  .service-box img {
+    width: 100px;
+}
+
+.partfour {
+  background-color: #00B172;
+  background-size: cover;
+  font-size: 20px;
+  text-align: left;
+  border: Apx solid Oblack;
+  padding: 10px;
+  box-sizing: border-box;
+  margin: 0 auto;
+  color: white;
+  display: flex;
+  align-items: center;
+}
+
+.left-bar {
+  float: left;
+  background-color: #00B172;
+  width: 45%;
+  padding-right: 30px;
+}
+
+.right-bar {
+  float: right;
+  width: 45%;
+}
+
+.middle {
+
+  background-color: #00B172;
+  width: auto;
+  padding: 20px;
+}
+
+.middle img {
+  width: 50px;
+  position: center;
+}
+.right-bar img {
+  width: 300px;
+  position: relative;
+  padding-left: 30px;
+}
